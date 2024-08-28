@@ -1,0 +1,33 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.dashboard{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.menu > label{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.action{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
